@@ -1,7 +1,7 @@
-name: "pro_fishRNA_exp"
+name: pro_fishRNA_exp
 output_dir: ../docs
 navbar:
-  title: "pro_fishRNA_exp"
+  title: pro_fishRNA_exp
   left:
   - text: Home
     href: index.html
@@ -9,6 +9,10 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fa-github
+    text: Source code
+    href: https://github.com/zhqy023/pro_fishRNA_exp
 output:
   workflowr::wflow_html:
     toc: yes
